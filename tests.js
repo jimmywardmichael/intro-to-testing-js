@@ -1,4 +1,7 @@
 // Unit tests for the helloWorld function
+
+
+// takes in two arguments, one description, one anonymous function
 describe('helloWorld', function() {
     it('should be a defined function', function() {
       expect(typeof helloWorld).toBe('function');
